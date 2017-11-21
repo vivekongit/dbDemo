@@ -18,7 +18,7 @@ public class dbDemo {
         try {
             // This will load the MySQL driver, each DB has its own driver
             Class.forName("com.mysql.jdbc.Driver");
-            // Setup the connection with the DB
+            // Setup the connection with the DB   
             connect = (Connection) DriverManager
                     .getConnection("jdbc:mysql://localhost:3306/test","root","");
 
